@@ -1,0 +1,10 @@
+[project]
+name = "support-agent"
+version = "0.1.0"
+description = "Generic AI support agent + MCP server for any project"
+requires-python = ">=3.11"
+dependencies = [
+    "mcp>=1.2",
+    "anthropic>=1.0",
+    "openai>=3.49.0",
+]

@@ -1,0 +1,18 @@
+2026-11-11 07:04:05,850 ERROR startup failed: missing config 'APP_SECRET'
+Traceback (most recent call last):
+  File "/home/anurag-rai/Claude Local Sessions/support-agent/demo-project/app.py", line 40, in <module>
+    cfg = config()
+  File "/home/anurag-rai/Claude Local Sessions/support-agent/demo-project/app.py", line 24, in config
+    return {"port": int(os.environ["PORT"]), "secret": os.environ["APP_SECRET"],
+                                                       ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<frozen os>", line 717, in __getitem__
+KeyError: 'APP_SECRET'
+2026-11-11 07:05:01,192 ERROR startup failed: missing config 'APP_SECRET'
+Traceback (most recent call last):
+  File "/home/anurag-rai/Claude Local Sessions/support-agent/demo-project/app.py", line 40, in <module>
+    cfg = config()
+  File "/home/anurag-rai/Claude Local Sessions/support-agent/demo-project/app.py", line 24, in config
+    return {"port": int(os.environ["PORT"]), "secret": os.environ["APP_SECRET"],
+                                                       ~~~~~~~~~~^^^^^^^^^^^^^^
+  File "<frozen os>", line 717, in __getitem__
+KeyError: 'APP_SECRET'

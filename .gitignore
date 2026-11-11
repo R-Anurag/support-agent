@@ -1,0 +1,6 @@
+# your API key; demo-project/.env is a fixture and stays tracked
+/.env
+*.bak
+__pycache__/
+.venv/
+.support-agent/

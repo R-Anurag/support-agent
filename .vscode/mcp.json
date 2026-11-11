@@ -1,0 +1,10 @@
+{
+  "servers": {
+    "project-support": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--directory", "${workspaceFolder}", "python", "mcp_server.py"],
+      "env": { "PROJECT_ROOT": "${workspaceFolder}/demo-project" }
+    }
+  }
+}

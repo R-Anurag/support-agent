@@ -1,0 +1,6 @@
+[project]
+name = "acme-notes"
+version = "1.2.0"
+description = "Tiny notes server used to demo the support agent"
+requires-python = ">=3.10"
+dependencies = []
