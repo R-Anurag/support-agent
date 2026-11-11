@@ -1,0 +1,186 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "s1",
+      "type": "rectangle",
+      "x": 40,
+      "y": 80,
+      "width": 230,
+      "height": 110,
+      "backgroundColor": "transparent",
+      "strokeColor": "#3b82f6",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "🔍 Check\nenv, logs, changelog"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    },
+    {
+      "id": "s2",
+      "type": "rectangle",
+      "x": 330,
+      "y": 80,
+      "width": 230,
+      "height": 110,
+      "backgroundColor": "transparent",
+      "strokeColor": "#8b5cf6",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "🧩 Diagnose\nnames the root cause"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    },
+    {
+      "id": "s3",
+      "type": "rectangle",
+      "x": 620,
+      "y": 80,
+      "width": 230,
+      "height": 110,
+      "backgroundColor": "transparent",
+      "strokeColor": "#f59e0b",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "🛠️ Fix\nyou approve it first"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    },
+    {
+      "id": "s4",
+      "type": "rectangle",
+      "x": 910,
+      "y": 80,
+      "width": 230,
+      "height": 110,
+      "backgroundColor": "transparent",
+      "strokeColor": "#22c55e",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "✅ Verify\nre-runs what failed"
+      },
+      "fontSize": 18,
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    },
+    {
+      "id": "b1",
+      "type": "arrow",
+      "x": 278,
+      "y": 135,
+      "strokeColor": "#475569",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          44,
+          0
+        ]
+      ],
+      "start": {
+        "id": "s1"
+      },
+      "end": {
+        "id": "s2"
+      },
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    },
+    {
+      "id": "b2",
+      "type": "arrow",
+      "x": 568,
+      "y": 135,
+      "strokeColor": "#475569",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          44,
+          0
+        ]
+      ],
+      "start": {
+        "id": "s2"
+      },
+      "end": {
+        "id": "s3"
+      },
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    },
+    {
+      "id": "b3",
+      "type": "arrow",
+      "x": 858,
+      "y": 135,
+      "strokeColor": "#475569",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          44,
+          0
+        ]
+      ],
+      "start": {
+        "id": "s3"
+      },
+      "end": {
+        "id": "s4"
+      },
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    },
+    {
+      "id": "foot",
+      "type": "text",
+      "x": 375,
+      "y": 225,
+      "width": 460,
+      "height": 22,
+      "strokeColor": "#64748b",
+      "text": "It never says \"fixed\" until step 4 passes.",
+      "fontSize": 17,
+      "fontFamily": 5,
+      "createdAt": "2026-11-11T02:23:37.999Z",
+      "updatedAt": "2026-11-11T02:23:37.999Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}

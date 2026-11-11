@@ -1,0 +1,299 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "mcp-excalidraw-server",
+  "elements": [
+    {
+      "id": "you",
+      "type": "ellipse",
+      "x": 40,
+      "y": 115,
+      "width": 150,
+      "height": 80,
+      "backgroundColor": "transparent",
+      "strokeColor": "#ec4899",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "🧑 You"
+      },
+      "fontSize": 20,
+      "fontFamily": 2,
+      "createdAt": "2026-11-11T02:22:47.926Z",
+      "updatedAt": "2026-11-11T02:22:47.926Z",
+      "version": 1
+    },
+    {
+      "id": "agent",
+      "type": "rectangle",
+      "x": 270,
+      "y": 95,
+      "width": 250,
+      "height": 120,
+      "backgroundColor": "transparent",
+      "strokeColor": "#3b82f6",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "🤖 Agent\nagent.py, Claude Code\nor Copilot"
+      },
+      "fontSize": 18,
+      "fontFamily": 2,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "mcp",
+      "type": "rectangle",
+      "x": 620,
+      "y": 95,
+      "width": 230,
+      "height": 120,
+      "backgroundColor": "transparent",
+      "strokeColor": "#8b5cf6",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "🔌 MCP server\n11 tools"
+      },
+      "fontSize": 18,
+      "fontFamily": 2,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "proj",
+      "type": "rectangle",
+      "x": 950,
+      "y": 95,
+      "width": 230,
+      "height": 120,
+      "backgroundColor": "transparent",
+      "strokeColor": "#22c55e",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "📁 Your project\ncode, .env, logs, git"
+      },
+      "fontSize": 18,
+      "fontFamily": 2,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "llm",
+      "type": "rectangle",
+      "x": 270,
+      "y": 320,
+      "width": 250,
+      "height": 90,
+      "backgroundColor": "transparent",
+      "strokeColor": "#f59e0b",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "label": {
+        "text": "🧠 Any LLM\nClaude, OpenAI, Ollama..."
+      },
+      "fontSize": 18,
+      "fontFamily": 2,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "a1",
+      "type": "arrow",
+      "x": 198,
+      "y": 155,
+      "strokeColor": "#475569",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          64,
+          2.842170943040401e-14
+        ]
+      ],
+      "start": {
+        "id": "you"
+      },
+      "end": {
+        "id": "agent"
+      },
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "a2",
+      "type": "arrow",
+      "x": 528,
+      "y": 155,
+      "strokeColor": "#475569",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          84,
+          0
+        ]
+      ],
+      "start": {
+        "id": "agent"
+      },
+      "end": {
+        "id": "mcp"
+      },
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "a3",
+      "type": "arrow",
+      "x": 858,
+      "y": 155,
+      "strokeColor": "#475569",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          84,
+          0
+        ]
+      ],
+      "start": {
+        "id": "mcp"
+      },
+      "end": {
+        "id": "proj"
+      },
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "a4",
+      "type": "arrow",
+      "x": 395,
+      "y": 223,
+      "strokeColor": "#475569",
+      "strokeWidth": 2,
+      "roughness": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          89
+        ]
+      ],
+      "start": {
+        "id": "agent"
+      },
+      "end": {
+        "id": "llm"
+      },
+      "startArrowhead": "arrow",
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "x": 198,
+      "y": 125,
+      "width": 70,
+      "height": 20,
+      "strokeColor": "#64748b",
+      "text": "problem",
+      "fontSize": 15,
+      "fontFamily": 5,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "x": 532,
+      "y": 125,
+      "width": 80,
+      "height": 20,
+      "strokeColor": "#64748b",
+      "text": "tool calls",
+      "fontSize": 15,
+      "fontFamily": 5,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "x": 862,
+      "y": 125,
+      "width": 80,
+      "height": 20,
+      "strokeColor": "#64748b",
+      "text": "reads, fixes",
+      "fontSize": 15,
+      "fontFamily": 5,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "x": 405,
+      "y": 255,
+      "width": 200,
+      "height": 20,
+      "strokeColor": "#64748b",
+      "text": "decides the next step",
+      "fontSize": 15,
+      "fontFamily": 5,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    },
+    {
+      "id": "gate",
+      "type": "text",
+      "x": 600,
+      "y": 240,
+      "width": 300,
+      "height": 44,
+      "strokeColor": "#ef4444",
+      "text": "✋ Every change waits\nfor your yes",
+      "fontSize": 16,
+      "fontFamily": 5,
+      "createdAt": "2026-11-11T02:22:47.927Z",
+      "updatedAt": "2026-11-11T02:22:47.927Z",
+      "version": 1
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}
